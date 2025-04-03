@@ -1,0 +1,99 @@
+
+body {
+    margin: 0;
+    font-family: 'Pretendard', sans-serif;
+    background: #f9f9f9;
+    color: #222;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8em 2em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo-kor, .logo-eng {
+    height: 32px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #d32f2f;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #1976d2;
+}
+
+.join-header {
+    background: linear-gradient(to right, #d32f2f, #1976d2);
+    color: white;
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.join-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.join-content {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.join-content h2 {
+    color: #d32f2f;
+    margin-top: 1.5em;
+}
+
+.join-content ul {
+    padding-left: 1.2em;
+    line-height: 1.8;
+}
+
+.join-content a {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.join-content a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #eeeeee;
+    padding: 1.5em;
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    margin-top: 3em;
+}

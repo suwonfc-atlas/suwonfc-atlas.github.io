@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    font-family: 'Pretendard', sans-serif;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8em 2em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo-kor, .logo-eng {
+    height: 32px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #d32f2f;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #1976d2;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
+                url('../img/main.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.hero-content {
+    max-width: 1200px;
+}
+
+.hero-emblem {
+    width: 320px;
+    margin-bottom: 1em;
+    background: white;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.intro {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+footer {
+    background: #eeeeee;
+    color: #555;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 0.9em;
+}

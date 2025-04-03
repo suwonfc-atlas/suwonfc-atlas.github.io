@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    font-family: 'Pretendard', sans-serif;
+    background: #f9f9f9;
+    color: #222;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8em 2em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo-kor, .logo-eng {
+    height: 32px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #d32f2f;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #1976d2;
+}
+
+.flags-header {
+    background: linear-gradient(to right, #d32f2f, #1976d2);
+    color: white;
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.flags-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.flag-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+.flag-card {
+    background: white;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 1em;
+    text-align: center;
+}
+
+.flag-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 0.8em;
+}
+
+.flag-card h3 {
+    margin: 0.5em 0;
+    color: #d32f2f;
+}
+
+footer {
+    background: #eeeeee;
+    padding: 1.5em;
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    margin-top: 3em;
+}
