@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Pretendard', sans-serif;
+    color: black;
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8em 1.5em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .logo-kor, .logo-eng {
+    height: 30px;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 1.8em;
+    cursor: pointer;
+    color: #d32f2f;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #d32f2f;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #1976d2;
+  }
